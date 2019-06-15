@@ -1,2 +1,3 @@
 # golang-projects
-my-personnel-golang Projects
+
+this repo consists of my various golang Projects
