@@ -1,13 +1,3 @@
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-
- awd(https://via.placeholder.com/15/c5f015/000000?text=+) `akn`
-
 # Introduction
 
 Container Registry API completes the docker command line to allow you to fully manage your namespaces, images and tags.
@@ -30,10 +20,9 @@ curl -X POST --header "x-auth-token: ${SCALEWAY_TOKEN}" https://api.scaleway.com
 ```
 
 Push an image:
-- registry-host
-```diff
-- registry-host
-docker login '- registry-host' -u anyuser -p ${SCALEWAY_TOKEN}
+
+```
+docker login rg.nl-ams.scw.cloud -u anyuser -p ${SCALEWAY_TOKEN}
 docker tag nginx:latest rg.nl-ams.scw.cloud/myfirstnamespace/nginx:latest
 docker push rg.nl-ams.scw.cloud/myfirstnamespace/nginx:latest
 ```
