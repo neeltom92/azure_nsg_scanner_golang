@@ -32,7 +32,7 @@ Push an image:
 - registry-host
 ```diff
 - registry-host
-docker login `- registry-host` -u anyuser -p ${SCALEWAY_TOKEN}
+docker login '- registry-host' -u anyuser -p ${SCALEWAY_TOKEN}
 docker tag nginx:latest rg.nl-ams.scw.cloud/myfirstnamespace/nginx:latest
 docker push rg.nl-ams.scw.cloud/myfirstnamespace/nginx:latest
 ```
