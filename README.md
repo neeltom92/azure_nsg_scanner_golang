@@ -29,9 +29,10 @@ curl -X POST --header "x-auth-token: ${SCALEWAY_TOKEN}" https://api.scaleway.com
 ```
 
 Push an image:
-
+- registry-host
 ```diff
-docker login - registry-host -u anyuser -p ${SCALEWAY_TOKEN}
+- registry-host
+docker login `- registry-host` -u anyuser -p ${SCALEWAY_TOKEN}
 docker tag nginx:latest rg.nl-ams.scw.cloud/myfirstnamespace/nginx:latest
 docker push rg.nl-ams.scw.cloud/myfirstnamespace/nginx:latest
 ```
