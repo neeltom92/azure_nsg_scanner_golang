@@ -6,7 +6,7 @@
 @@ text in purple (and bold)@@
 ```
 
- ![#c5fsdsds015](https://via.placeholder.com/15/c5f015/000000?text=+) `alnkdfnljasdkfn`
+ awd(https://via.placeholder.com/15/c5f015/000000?text=+) `akn`
 
 # Introduction
 
