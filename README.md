@@ -1,7 +1,7 @@
 
 ```
 curl --location --request POST 'https://api.scaleway.com/registry/v1/regions/fr-par/namespaces' \
---header 'x-auth-token: 7425ef12-d1e0-4093-ac1f-beb9394b76d7' \
+--header 'x-auth-token: `7425ef12-d1e0-4093-ac1f-beb9394b76d7`' \
 --header 'Content-Type: application/json' \
 --data-raw '{
   "description": "neelwfefew",
