@@ -15,7 +15,6 @@ var sg_fnl string
 var sg_fnl_user string
 var slack_val string
 var user_condition int = 0
-//var test int = 1
 
 var input string
 var duplicate_op []interface{}
